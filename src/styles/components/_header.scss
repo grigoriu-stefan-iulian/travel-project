@@ -1,0 +1,102 @@
+.bg-section-one {
+    background: url(../images/bg-section1.jpg) no-repeat 0 0;
+}
+
+/*
+.bg-mask {
+    position: relative;
+    z-index: -1;
+    background: url(../images/bg-mask.png) no-repeat 0 0;
+    background-size: cover;
+}
+*/
+
+.header-first-row {
+    padding: 25px 14px;
+    border-bottom: 3px solid #737786;
+}
+
+.header-phone span {
+    margin-right: 110px;
+}
+
+.header-phone img,
+.header-email img,
+.header-actions img {
+    vertical-align: middle;
+}
+
+.header-social-media a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 18px;
+    transition: all .1s ease;
+    margin-right: 22px;
+}
+
+.header-social-media a:hover {
+    opacity: 0.8;
+}
+
+.header-social-media a.icon-fb {
+    background: url(../images/icons/social.png) no-repeat 6px 50%;
+    height: 21px;
+}
+
+.header-social-media a.icon-google {
+    background: url(../images/icons/social.png) no-repeat -30px 50%;
+    width: 31px;
+}
+
+.header-social-media a.icon-wiki {
+    background: url(../images/icons/social.png) no-repeat -81px 50%;
+}
+
+.header-social-media a.icon-youtube {
+    background: url(../images/icons/social.png) no-repeat -122px 50%;
+}
+
+.header-social-media a:last-child {
+    margin-right: 0;
+}
+
+.header-social-media {
+    margin-right: 88px;
+}
+
+.header-actions a:first-child {
+    margin-right: 33px;
+}
+
+.header-actions a img {
+    margin-right: 4px;
+}
+
+.header-second-row {
+    padding: 0 24px 0 11px;
+}
+
+.header-logo {
+    padding-top: 16px;
+}
+
+.header-menu {
+    padding-top: 36px;
+    padding-bottom: 31px;
+}
+
+.header-menu a {
+    text-transform: uppercase;
+    margin-right: 53px;
+    padding-bottom: 27px;
+    font-weight: bold;
+}
+
+.header-menu a:last-child {
+    margin-right: 0;
+}
+
+.active {
+    border-bottom: 3px solid #ffdd00;
+}
