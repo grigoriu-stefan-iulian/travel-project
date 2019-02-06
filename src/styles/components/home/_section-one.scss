@@ -1,0 +1,19 @@
+.section-one {
+    color: #ffffff;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-one__title {
+    font-size: $xxl-size;
+    padding-top: 19rem;
+}
+
+.section-one__subtitle {
+    text-transform: uppercase;
+    font-size: $xl-size;
+    letter-spacing: $m-size;
+    padding-top: $xl-size;
+    padding-bottom: 6rem;
+}
