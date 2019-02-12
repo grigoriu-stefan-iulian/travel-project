@@ -1,12 +1,13 @@
 .section-one {
     color: #ffffff;
-    max-width: 760px;
+    max-width: 76rem;
     margin: 0 auto;
     text-align: center;
 }
 
 .section-one__title {
     font-size: $xxl-size;
+    font-weight: 900;
     padding-top: 19rem;
 }
 
@@ -16,4 +17,8 @@
     letter-spacing: $m-size;
     padding-top: $xl-size;
     padding-bottom: 6rem;
+}
+
+.section-one__para {
+    margin-bottom: 5.7rem;
 }

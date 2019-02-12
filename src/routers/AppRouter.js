@@ -13,7 +13,7 @@ class TravelProject extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="container__outer bg-section-one bg-mask">
+        <div className="container__outer bg-section-one">
           <Header />
           <Switch>
             <Route path="/" component={Home} exact={true} />

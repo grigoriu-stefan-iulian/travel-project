@@ -1,21 +1,26 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import phoneIcon from '../images/icons/phone.png'
+import emailIcon from '../images/icons/email.png'
+import loginIcon from '../images/icons/user-profile.png'
+import singUpIcon from '../images/icons/key.png'
+import logoIcon from "../images/Logo.png"
 
 class Header extends React.Component {
     render() {
         return (
-            <div>
+            <div className="masked">
                 <header className="container__inner">
                     <div className="">
                         <div className="header__first-row clearfix">
                             <div className="pull-left">
                                 <a href="tel:+1234578900" className="header--phone">
-                                    <img src="../images/icons/phone.png" alt="phone"></img>
-                                    <span>+123 457 8900</span>
+                                    <img src={phoneIcon} alt="phone"></img>
+                                    <span> +123 457 8900</span>
                                 </a>
                                 <a href="mailto:free@psdfreebies.com" className="header--email">
-                                    <img src="./images/icons/email.png" alt="email"></img>
-                                    <span>free@psdfreebies.com</span>
+                                    <img src={emailIcon} alt="email"></img>
+                                    <span> free@psdfreebies.com</span>
                                 </a>
                             </div>
                             <div className="pull-right flex-block">
@@ -27,11 +32,11 @@ class Header extends React.Component {
                                 </div>
                                 <div className="header__actions">
                                     <a href="#">
-                                        <img src="images/icons/user-profile.png" alt="Login"></img>
+                                        <img src={loginIcon} alt="Login"></img>
                                         <span>Login</span>
                                     </a>
                                     <a href="#">
-                                        <img src="images/icons/key.png" alt="SignUp"></img>
+                                        <img src={singUpIcon} alt="SignUp"></img>
                                         <span>Sign Up</span>
                                     </a>
                                 </div>
@@ -39,7 +44,7 @@ class Header extends React.Component {
                         </div>
                         <div className="header__second-row clearfix">
                             <div className="header--logo pull-left">
-                                <a href="#"><img src="images/Logo.png" alt="Explore Icon" title="Explore Website"></img></a>
+                                <a href="#"><img src={logoIcon} alt="Explore Icon" title="Exploore Website"></img></a>
                             </div>
                             <div className="header__menu pull-right">
                                 <NavLink to="/" exact={true}>Home</NavLink>

@@ -3,12 +3,13 @@ html {
 }
 
 body {
+    transform: scale(1.1);
+    transform-origin: 0 0;
     background: white;
     //color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Montserrat;
     font-size: 1.5rem;
+    zoom: 1;
 }
 
-body {
-    font-family: 'Montserrat';
-}
+p
