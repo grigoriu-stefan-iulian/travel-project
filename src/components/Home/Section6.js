@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section6 = () => (
     <div>
-        <img>
+        <img alt="">
         </img>
         <div>
             <h2 className="section-five__title">Trusted Since 2001</h2>

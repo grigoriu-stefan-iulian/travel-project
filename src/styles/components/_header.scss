@@ -1,6 +1,10 @@
 .bg-section-one {
     background: url(../images/bg-section1.jpg) no-repeat 0 0;
 }
+// Change name
+.bg-section-one__ {
+    background: url(../images/bg-section1.jpg) no-repeat 0 0;
+}
 
 .header__first-row {
     padding: 2.5rem 1.4rem;
@@ -56,6 +60,10 @@
     margin-right: 8.8rem;
 }
 
+.header__actions {
+    font-size: 1.4rem;
+}
+
 .header__actions a:first-child {
     margin-right: 3.3rem;
 }
@@ -81,7 +89,8 @@
     text-transform: uppercase;
     margin-right: 5.3rem;
     padding-bottom: 2.7rem;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 
 .header__menu a:last-child {
@@ -93,5 +102,5 @@
 }
 
 .masked {
-    background: url(../images/bg-mask.png) no-repeat 0 0;
+    background: url(../images/bg-mask.png);
 }

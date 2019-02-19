@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Blog = () => (
-    <div>
+    <div className="container__inner">
         blog
     </div>
 )

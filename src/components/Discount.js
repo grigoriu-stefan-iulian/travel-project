@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Discount = () => (
-    <div>
+    <div className="container__inner">
         discount
     </div>
 )

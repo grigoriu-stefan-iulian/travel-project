@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Destination = () => (
-    <div>
+    <div className="container__inner">
         Destination
 
     </div>
