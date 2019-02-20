@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Section1 = () => (
-    <div className="bg-section-one__">
+    <div className="section-one__bg">
         <div className="container__inner">
             <section className="section-one ">
                 <h1 className="section-one__title">Start Your Greatest </h1>
@@ -11,7 +11,6 @@ const Section1 = () => (
             </section>
         </div>
     </div>
-
 )
 
 export default Section1

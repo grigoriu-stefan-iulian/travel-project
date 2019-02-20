@@ -12,22 +12,21 @@ import Section10 from './Section10'
 import Section11 from './Section11'
 import Footer from '../Footer'
 
-
 const Home = () => (
     <div>
         <Section1 />
-    <Section2 />
-    <Section3 />
-    <Section4 />
-    <Section5 />
-    <Section6 />
-    <Section7 />
-    <Section8 />
-    <Section9 />
-    <Section10 />
-    <Section11 />
- 
-    <Footer />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Section8 />
+        <Section9 />
+        <Section10 />
+        <Section11 />
+
+        <Footer />
     </div>
 )
 

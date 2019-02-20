@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Section9 = () => (
-    <div>
-        <img alt=""></img>
+    <div className="container__inner">
+    <img alt=""></img>
         <div>
             <h2>New York - Paris</h2>
             <p>7 Day + 6 Night</p>

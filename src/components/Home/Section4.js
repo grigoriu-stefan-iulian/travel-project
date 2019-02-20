@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Section4 = () => (
-    <div>
-        <h2 className="section-four__title">Our best services</h2>
+    <div className="container__inner">
+    <h2 className="section-four__title">Our best services</h2>
         <h3 className="section-four__subtitle">We are travel Agent</h3>
         <div className="section-four__container">
             <div className="section-four__container--column-one">

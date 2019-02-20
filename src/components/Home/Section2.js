@@ -1,26 +1,26 @@
 import React from 'react'
 
 const Section2 = () => (
-    <div className=" bg-section-two">
+    <div className="section-two__bg">
         <div className="container__inner ">
-            <h2 className="find-hotels__title" >Find Hotels</h2>
-            <form className="find-hotels__form" >
-                <label>Where
-                <input placeholder="Location"></input>
+            <h2 className="section-two__title" >Find Hotels</h2>
+            <form className="section-two__form" >
+                <label><span>Where?</span>
+                <input placeholder="Location" />
                 </label>
-                <label>Check in
-                <input placeholder="DD-MM-YYYY"></input>
+                <label><span>Check in</span>
+                <input placeholder="DD-MM-YYYY" />
                 </label>
-                <label>Check out
-                <input placeholder="DD-MM-YYYY"></input>
+                <label><span>Check out</span>
+                <input placeholder="DD-MM-YYYY" />
                 </label>
-                <label>Adult
-                <input placeholder="01"></input>
+                <label><span>Adult</span>
+                <input placeholder="01" />
                 </label>
-                <label>Child
-                <input placeholder="00"></input>
+                <label><span>Child</span>
+                <input placeholder="00" />
                 </label>
-                <button className="click-here-button" >Click Here</button>
+                <button className="button section-two__button" >Click Here</button>
             </form>
         </div>
     </div>

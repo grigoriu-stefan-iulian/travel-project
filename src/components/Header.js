@@ -9,7 +9,7 @@ import logoIcon from "../images/Logo.png"
 class Header extends React.Component {
     render() {
         return (
-            <div className="bg-section-one">
+            <div className="bg-header">
                 <div className=" masked">
                     <header className="container__inner">
                         <div className="">

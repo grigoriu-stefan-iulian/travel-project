@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Section8 = () => (
-<div>
-<h2 className="section-five__title">Trusted Since 2001</h2>
+    <div className="container__inner">
+    <h2 className="section-five__title">Trusted Since 2001</h2>
         <h3>Go Exploore</h3>
     <div>
         <img alt=""></img>

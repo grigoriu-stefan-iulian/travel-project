@@ -1,9 +1,9 @@
-.bg-section-one {
+.bg-header {
     background: url(../images/bg-section1.jpg) no-repeat 0 0;
 }
-// Change name
-.bg-section-one__ {
-    background: url(../images/bg-section1.jpg) no-repeat 0 0;
+
+.masked {
+    background: url(../images/bg-mask.png);
 }
 
 .header__first-row {
@@ -101,6 +101,4 @@
     border-bottom: .3rem solid #ffdd00;
 }
 
-.masked {
-    background: url(../images/bg-mask.png);
-}
+

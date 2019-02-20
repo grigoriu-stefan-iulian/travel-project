@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Section11 = () => (
-    <div>
+    <div className="container__inner">
         <h2>Start Your Jurney</h2>
         <h3>Contact us</h3>
         <img alt=""></img>

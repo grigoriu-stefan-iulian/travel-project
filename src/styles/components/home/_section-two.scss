@@ -1,3 +1,37 @@
-.bg-section-two {
-    background: yellow;
+.section-two__bg {
+    background: url(../images/section-two__bg.png) no-repeat 0 0;
+    background-size: cover;
+}
+
+.section-two__title {
+    font-size: 3.7rem;
+    font-weight: bolder;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+// .section-two__form label {
+// }
+
+.section-two__form {
+    display: flex;
+    flex-direction: row;   
+}
+
+.section-two__form label span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section-two__form input {
+    border: none;
+    border-radius: .5rem;
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 2.1rem;
+    margin-right: 1.9rem;
+    padding: 1.3rem 2rem 1.5rem 2rem;
+    width: 15.2rem;
 }
