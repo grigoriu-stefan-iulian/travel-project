@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Section3 = () => (
-    <div className="container__inner">
-    <img className="section-three__image" alt=""/>
+    <div className="section-three__bg">
+       
         <div className="section-three__info">
             <h2 className="">Trusted Since 2001</h2>
             <h3 className="">We are Exploore</h3>
